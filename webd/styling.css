@@ -1,0 +1,141 @@
+body {
+    background-color: white;
+}
+
+.headbar{
+
+    padding: 35px;
+    text-align: center;
+    background: #656cec;
+    color: white;
+    font-size: 65px;
+    font-family: sans-serif;
+}
+
+.firstbox {
+    display: flex;
+    justify-content: center;
+    border-radius: 5px 5px 55px 55px;
+    background: #656cec;
+    margin-top: 5px;
+    padding: 15px; 
+    gap: 110px;
+  }
+
+
+.flexbox {
+    display: flex;
+    flex-direction: column;
+    background: #656cec;
+    margin-top: 5px;
+    padding: 35px;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 25px;
+    font-family: sans-serif;
+
+}
+  
+.circle1 {
+    border-radius: 55%;
+    background: #babeff;
+    width: 210px;
+    height: 210px;
+    align-self: center;
+
+    box-shadow: 0 0 0 10px white;
+}
+
+
+.circle2{
+    border-radius: 55%;
+    background: #babeff;
+    width: 150px;
+    height: 150px;
+    align-self: flex-end;
+    box-shadow: 0 0 0 10px white;
+    text-align: center;
+    
+}
+
+.circle3{
+    border-radius: 55%;
+    background: #babeff;
+    width: 150px;
+    height: 150px;
+    align-self: flex-end;
+    box-shadow: 0 0 0 10px white;
+    text-align: center;
+}
+
+.scircle{
+    border-radius: 55%;
+    background: #babeff;
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 0 0 5px white;
+    font-family: sans-serif;
+}
+
+.nocircle {
+    border-radius: 55%;
+    background: #babeff;
+    width:25px;
+    height: 25px;
+    text-align: center;
+    font-family: sans-serif;
+
+
+}
+
+.tag {
+    border-radius: 30px;
+    background: #babeff;
+    text-align: center;
+    
+    padding: 20px; 
+    width: 100px;
+    height: 10px;  
+    font-family: sans-serif;
+  }
+
+
+#ranks {
+    font-family: sans-serif;
+    border-collapse: collapse;
+    border-spacing: 10px;
+    width: 100%;
+    row-gap: 20px;
+}
+
+#ranks td, #rankss th {
+
+    padding: 25px;
+    width: 5000px;
+}
+
+#ranks tr{
+    background-color: #d2d4f2;
+    text-align: left;
+
+}
+
+.col {
+    column-width: 15px;
+}
+
+
+.white{
+    color: white;
+}
+
+.tag-prime {
+    border-radius: 30px;
+    background: #babeff;
+    text-align: center;
+    
+    padding: 20px; 
+    width: 150px;
+    height: 20px;  
+    font-family: sans-serif;
+}
